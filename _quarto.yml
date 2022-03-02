@@ -1,0 +1,22 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Crypto"
+  navbar:
+    search: true
+    collapse: false
+    left:
+      - text: "Papers"
+        file: preprints.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+editor: visual
+
